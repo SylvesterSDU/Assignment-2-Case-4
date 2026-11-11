@@ -1,0 +1,2 @@
+Prompt: The sky is
+Failed: tokens not in the training vocabulary: [' sky']

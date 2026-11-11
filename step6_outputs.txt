@@ -1,0 +1,142 @@
+STEP 6 – HALLUCINATIONS, THINKING AND TOOLS
+============================================================
+
+### A. OBSCURE ARTICLE: WITHOUT AND WITH THE ARTICLE
+
+Article (title + link): Jyderup – Danish Wikipedia, https://da.wikipedia.org/wiki/Jyderup
+
+Models used: Gemini (Flash) and ChatGPT (free version)
+
+--- 5 questions ---
+1. Hvor mange indbyggere er der i Jyderup?
+2. Hvornår kom kommunalreformen?
+3. Hvor mange fængselspladser har Jyderup Statsfængsel?
+4. Hvad fandt man i 1950 i Jyderup Kirke?
+5. Hvordan blev byen beskrevet i 1870?
+
+--- Run 1: Gemini Flash, "without the article" (but it used web search) ---
+1. 4.207 indbyggere (Danmarks Statistik). [source shown: Wikipedia]
+2. Two reforms: 1970 (Jyderup became the main town of Tornved Kommune) and 2007 (Tornved Kommune merged into Holbæk Kommune). [source shown: lex.dk]
+3. 162 places (58 remand places, 45 open places, 40 closed places). [source shown: Danmarks Fængsler]
+4. Around 1950, during a restoration of the church's coin block, 11 coins were found; the five oldest were rare "hulpenninge" from the time of Erik of Pomerania (c. 1396–1439). [source shown: Wikipedia]
+5. Trap Danmark (2nd ed., c. 1872): "Jyderup med Kirken, Præstegaard, Skole, Kro, Veirmølle, Teglbrænderi". [source shown: Wikipedia]
+Note: not a real "without article" test. Gemini searched the web and retrieved the article itself (source tags on every answer).
+
+--- Run 2: ChatGPT, WITHOUT the article ("do not search, answer only from your own knowledge, say 'I don't know' if unsure") ---
+1. Not sure of the current population; will not guess.
+2. The latest big municipal reform took effect on 1 January 2007; adopted in 2005.
+3. Does not know for certain.
+4. Does not know for certain.
+5. Does not know for certain.
+"I would rather be honest about what I don't know than give you wrong answers."
+
+--- Run 3: ChatGPT, WITHOUT the article (only "do not search", no "say I don't know") ---
+1. About 4,000 inhabitants; the exact number depends on the year.
+2. 1 January 2007; Jyderup became part of Holbæk Kommune.
+3. Not sure of the exact number of prison places.
+4. Not sure what was found in the church in 1950.
+5. Not sure of the exact description from 1870; Jyderup was then a small village around the church, and the town grew a lot after the railway arrived in 1874.
+Note: "railway arrived in 1874" was an extra detail I did not ask for. Check it against the article.
+
+--- Run 4: ChatGPT, WITH the article (Wikipedia link given) ---
+1. 4.207 indbyggere (2026).
+2. 1 January 2007. Jyderup was part of Tornved Kommune and became part of Holbæk Kommune.
+3. 162 prison places (and 130 jobs).
+4. When the church's coin block was restored around 1950, 11 coins were found; the five oldest were "hulpenninge" from the time of Erik of Pomerania.
+5. "Jyderup med Kirken, Præstegaard, Skole, Kro, Veirmølle, Teglbrænderi" – a church, vicarage, school, inn, windmill and brickworks.
+Source given: Wikipedia – Jyderup.
+
+--- Check: which answers were right / wrong / invented? ---
+| Situation                              | Result                                                    |
+| With web search tool (Gemini)          | All 5 correct, with sources                               |
+| Without article, "say I don't know"    | 1 correct (2007), 4 x "I don't know"                      |
+| Without article, only "do not search"  | 1 correct, 1 approximate (~4,000), 3 x "not sure", 1 extra detail to verify (railway 1874) |
+| With the article (ChatGPT)             | All 5 correct                                             |
+The model only answered the obscure questions correctly when the evidence was in the context (the article or a web search). From memory it either admitted not knowing or gave approximate answers. Note that it said "I don't know" partly because I asked it to.
+
+
+### B. WHO CREATED YOU?
+
+Model used: Gemini (Flash), new chat
+Answer: "I was created by Google."
+
+Model documentation (link): "Introducing Gemini: our largest and most capable AI model", Google blog, 6 December 2023 – https://blog.google/technology/ai/google-gemini-ai
+Does it match? Yes. The documentation says Gemini was built by the Gemini team at Google DeepMind, together with teams across Google.
+Note: a model does not "know" who made it from its training text. The developer puts this answer in on purpose, through the assistant training data and/or the system prompt. Without that, a model trained on internet text could just as well say it was made by OpenAI, because that answer is so common online.
+
+
+### C. RETAILER PROFIT CALCULATION
+
+Correct answer (calculated with code): EUR 930.46
+  Units sold: floor(1,247 x 83%) = 1,035
+  Price after 12% discount: 64.90 x 0.88 = 57.112
+  Revenue: 1,035 x 57.112 = 59,110.92
+  Returned units: floor(1,035 x 7%) = 72 -> refunds 72 x 57.112 = 4,112.064
+  Unsold units: 1,247 - 1,035 = 212 x 21.40 = 4,536.80
+  Purchase cost: 1,247 x 38.75 = 48,321.25
+  Shipping: 1,247 x 2.85 = 3,553.95
+  Fixed costs: 6,730.00
+  Profit: 59,110.92 - 4,112.064 + 4,536.80 - 48,321.25 - 3,553.95 - 6,730 = 930.456 -> 930.46
+
+Thinking model used: Gemini Pro ("Pro Høj" / high thinking)
+Non-thinking model used: Gemini Flash
+
+--- Non-thinking model (Flash): "Give only the final answer" ---
+€930.46   [correct]  – "Vis kode" (show code) appeared: Gemini ran code to calculate.
+
+--- Non-thinking model (Flash): "Show the calculation before answering" ---
+Purchase 1,247 x 38.75 = 48,321.25; price 64.90 x 0.88 = 57.112; sold floor(1,035.01) = 1,035; returned floor(72.45) = 72;
+net units kept 963 x 57.112 = 54,998.856; unsold 212 x 21.40 = 4,536.80; total revenue 59,535.656;
+shipping 3,553.95; fixed 6,730; total costs 58,605.20; profit 930.456 -> €930.46   [correct]
+"Vis kode" appeared: also calculated with code.
+
+--- Thinking model (Pro): "Give only the final answer" ---
+€930.46   [correct]  – no "Vis kode" visible.
+
+--- Thinking model (Pro): "Show the calculation before answering" ---
+Costs 48,321.25 + 3,553.95 + 6,730.00 = 58,605.20; sales 1,035 x 57.112 = 59,110.92; refunds 72 x 57.112 = 4,112.064;
+clearance 212 x 21.40 = 4,536.80; net revenue 59,535.656; profit 930.456 -> €930.46   [correct]
+"Vis kode" appeared: also calculated with code.
+
+--- Comparison: which were correct, and why? ---
+All four answers were correct (€930.46), including the non-thinking model asked for only the final answer.
+The main reason is that Gemini used a tool: in three of the four runs a "Vis kode" (show code) button appeared,
+meaning the model wrote and executed code instead of doing the arithmetic in text. So this test mainly shows the
+effect of tools, not the difference between thinking and non-thinking models. Without code, a non-thinking model
+asked for only the final answer would have to produce the whole result in one go, which is where errors are most
+likely; showing the calculation, or thinking first, gives the model more tokens to work through the steps.
+Both "show the calculation" runs reached the result in slightly different but equivalent ways
+(963 net units x 57.112 vs. 1,035 sold minus 72 refunded), which is useful for checking the logic.
+
+
+### D. SMALL TASKS: WITHOUT AND WITH EXECUTED CODE
+
+Correct answers: 9.9 is larger | "strawberry" has 3 r's | every third character of "Ubiquitous" = "Uqts"
+
+Model used: ChatGPT (free version), a new chat for each run
+
+--- Without code ---
+Which decimal is larger, 9.11 or 9.9?  "9.9 is larger (9.9 = 9.90, which is greater than 9.11)."   [correct]
+How many r's are in "strawberry"?  "There are 3 r's."   [correct]
+Every third character of "Ubiquitous", starting with the first:  "b i o -> bio"   [WRONG, correct is Uqts]
+
+--- With executed code ("Use code to answer:") ---
+Which decimal is larger, 9.11 or 9.9?  "9.9 is larger than 9.11."   [correct]
+How many r's are in "strawberry"?  "3."   [correct]
+Every third character of "Ubiquitous", starting with the first:  "btu"   [WRONG, correct is Uqts]
+Note: the answer showed no sign that code was actually run (no code block or "analysis" step), even though I asked for it.
+
+--- Check with real code (Python) ---
+max(9.11, 9.9) -> 9.9 | "strawberry".count("r") -> 3 | "Ubiquitous"[::3] -> "Uqts"
+Positions: U(0) b(1) i(2) q(3) u(4) i(5) t(6) o(7) u(8) s(9) -> positions 0, 3, 6, 9 = U, q, t, s
+
+
+### WHAT I NOTICED
+
+Hallucinations and context: from memory alone, the model either admitted it did not know (when asked to) or gave approximate answers with an extra unrequested detail. With the article in the context, or with web search, every answer was correct. For business questions, give the model the actual document or let it retrieve current information instead of relying on its memory.
+
+Who created you: the answer ("Google") matched the documentation, but the model knows this only because the developer trained or prompted it to say so.
+
+Thinking vs. tools: all four profit answers were correct, but Gemini ran code in three of them ("Vis kode"). The tool, not the thinking, did the arithmetic. This is why invoice totals should be checked with executed code rather than a fluent explanation.
+
+Tokens: the decimal and counting questions were right, which these tasks were famous for getting wrong in older models (probably trained in by now). But every third character of "Ubiquitous" was wrong twice ("bio" and "btu"). The model sees tokens, not single letters, so letter-level tasks are hard. Even when I asked it to use code, it gave a wrong answer with no sign that code had actually been run: asking for a tool does not guarantee the tool is used, so check that it was.

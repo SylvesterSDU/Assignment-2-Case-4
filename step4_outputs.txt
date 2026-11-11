@@ -1,0 +1,207 @@
+STEP 4 – BASE MODEL AND ASSISTANT
+============================================================
+
+### BASE MODEL: HuggingFaceTB/SmolLM2-135M (Completion mode)
+
+--- Prompt: What is 2+2? – run 1 ---
+
+what is 2+2? It's a whole number. (1 + 0) = (2 + 0) = 3. But 4 is not an even number, so we can't have two numbers that add to 5! So there are only 7 possibilities:
+
+3 + 3 = 6 9 - 8 = 3 11 + 11 = 12 etc.
+
+That gives us four possible combinations for the square of 2x, with each combination containing exactly one number that adds up to 5. If you think about it, the only way to get those four combinations together is if you multiply them by themselves and then take the square root. The square root of 12 is therefore just 3. So 2 x 2 x 3 = 12. And since there are 7 choices for each row in the pattern, we see that multiplying these by themselves will give 12 as our answer.
+
+The "How Many Ways Are There to Multiply Two Numbers?" Puzzle
+Here is another puzzle I'm doing on Monday at Math Camp. I'll post more information about this later today, but here is the link to the original
+--- Prompt: What is 2+2? – run 2 ---
+
+what is 2+2? 3. What's the square root of 79451? 6. How do you multiply two single-digit numbers together? 8. 30% of a number is greater than or equal to what percent of that number?
+--- Prompt: What is 2+2? – run 3 ---
+what is 2+2?
+
+The answer to this question, and others like it, has been called the “golden rule” of mathematics. It states that a solution exists if there are two distinct points in a plane where one can be added or subtracted from another point without leaving any area between them – just as you would add or subtract with an apple on your hand.
+
+How do you find the square root of 398610547?
+
+Step-by-step solution:
+
+398610547 = √(398610547) + (√398610547)/2
+
+What is the square root of 398610547 using long division?
+
+Using long division, we obtain the following result: √[398610547] = 25/75 = 0.41831718…
+
+What is 398610547 squared?
+• 398610547^2 = 17348780762540
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 1 ---
+Here is my top 10 list of landmarks to see in Paris:
+
+La Concorde The French colonial site, the Concorde was built by the French government as a protection against Germany and Spain in the wake of World War I. It is surrounded on three sides by the Pont Neuf, which is the longest bridge in Europe at almost 25 metres long with four pillars that make it look like a pyramid. The Pont Neuf can be seen from the Tuileries Gardens.
+Pont Neuf Built in 1897 as an observation tower and now used for public events such as concerts, this beautiful monument towers over the Tuileries gardens. The height of the tower is 36 metres, making it taller than the Eiffel Tower. The French flag is displayed here while the Mona Lisa hangs above the ground.
+Le Bourget A former prison where prisoners were held during the reign of Louis XIV, the Le Bourget was constructed between 1740 and 1753. It features a huge stone dome that has been moved around several times since then due to its position. This historic building is one of the oldest in Paris.
+Place des Vosges One of the most famous monuments in Paris and also located near the Tu
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 2 ---
+Here is my top 10 list of landmarks to see in Paris:
+
+-          Pont Neuf (25 km from the center)
+
+
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 3 ---
+
+Here is my top 10 list of landmarks to see in Paris:
+
+The Eiffel Tower
+The Champs-Élysées
+The Louvre
+The Arc de Triomphe
+The Eiffel Tower
+The Eiffel Tower
+The Arc de Triumph
+The Arc de Triumph
+The Eiffel Tower
+The Eiffel Tower
+What's next?
+
+You may have noticed that the top ten most visited places are all located on the shores of the Mediterranean Sea, where France’s capital is situated. This could be due to their proximity to the coast and also because they share a common history with other European cities – both France and Italy share a long history with each other dating back thousands of years! In fact, many tourist attractions were built around this same time period as well - from the Roman baths (known today as the Aquae Sulis) which date back over three thousand years ago up until modern day, to the ancient city of Pompeii and its ruins still remain.
+
+The reason why the world thinks of France first when it comes to Europe is due to the region’s rich culture and heritage. So if you're looking for something to do during your trip to France, or just want
+
+### ASSISTANT: HuggingFaceTB/SmolLM2-135M-Instruct (Chat mode)
+
+--- Prompt: What is 2+2? – run 1 ---
+To add two numbers, you simply need to combine their values and then add them together. The formula for this operation is:
+
+(a + b) = (a × b) + (b × a).
+
+In other words, the result of adding the numbers together will be equal to twice the product of those numbers. This means that if you have the number 15 and the number 30, the sum would be 60. So, in this case, 2 + 2 = 4.
+
+--- Prompt: What is 2+2? – run 2 ---
+In mathematics, the expression "2 + 2" refers to a simple arithmetic operation involving two objects that add up to five (e.g., 5 + 5 = 10). However, in more mathematical contexts, such as algebra and number theory, it can also represent an algebraic identity or a geometric shape with integer coordinates.
+
+For instance:
+
+If we consider the equation 3 + 4 = 7, then 2 + 2 = 7, which represents the sum of three distinct integers from 1 to 6.
+In geometry, this expression might be used to describe a point lying on a line segment formed by connecting two points within a circle or plane. For example, if we draw a circle with its center at point A and a radius of length 1 unit, the point 2 units away from A forms a line segment with endpoints B and C, where B - C = 1/√(2^2 + 1^2), resulting in a line segment of length √(2^2 + 1^2) = √2 units.
+Similarly, when dealing with non-integer coordinate systems like Cartesian or polar coordinates, this expression would involve
+
+--- Prompt: What is 2+2? – run 3 ---
+To find the sum of two numbers, we need to follow these simple rules:
+
+Add the numbers together: The first number (a) + The second number (b): This will give us an answer in terms of the value of a plus b.
+For example, if you have 4 and 5, your answer would be 9. If you had 7 and 8, your answer would be 6. If you had 3 and 4, your answer would also be 6. So, 2 + 2 = 4.
+
+Take the result and divide it by 2: The result divided by 2 gives us the final answer as well. In this case, 2 ÷ 2 equals 1.
+Add up both sides of the equation: To add the results, you multiply the values on either side of the equal sign. For instance, when adding 4 (the first number) with 3 (the second), you get 9. Multiplying 9 by 2 equals 18, so the total is 18.
+Simplify the expression: Combining like terms, the simplified form becomes 18/2, which simplifies to
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 1 ---
+Paris, the City of Light, has an impressive list of attractions that span from historic sites like the Eiffel Tower to modern marvels such as the Louvre Museum and Notre-Dame Cathedral. Here's a curated list of your top 10 sights to experience during your stay in Paris:
+
+Eiffel Tower (Le Marais) - This iconic iron lady towers over the city, offering breathtaking views of the Seine River and the cityscape below.
+Notre-Dame Cathedral (Rue de Rivoli) - A beautiful example of Gothic architecture with its intricate stone carvings, ornate stained glass windows, and majestic spires.
+Louvre Museum (Louvre) - The largest art museum in the world houses some of the most famous works of art in the world including the Mona Lisa, Venus de Milo, and David.
+Arc de Triomphe (Montmartre) - This charming pedestrian park commemorates the Battle of the 1st of July when French soldiers defended themselves against an invading army at the historic site near the Eiffel Tower.
+Sainte-Chapelle (Sainte-Chapelle) - This stunning chapel dedicated to Saint Catherine exemplifies the medieval style and offers
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 2 ---
+Paris, the City of Light! Here's your top 10 list of landmarks to see in Paris:
+
+Eiffel Tower (Tour Eiffel): Located at the heart of the city, this iconic iron lattice tower rises majestically from the Champ de Mars park and offers breathtaking views of the city.
+Notre-Dame Cathedral (Notre Dame Cathedral): The cathedral is an iconic landmark with beautiful stained glass windows and intricate stone carvings that make it a must-visit destination for art lovers and history buffs alike.
+Louvre Museum (Louvre Museum): Home to thousands of works by famous artists including Picasso, Matisse, and Van Gogh, this museum showcases a diverse collection of art, artifacts, and other historical treasures.
+Isle ofcans (Côte d'Azur): Located in the French countryside, this picturesque village has been home to many famous authors and artists throughout history, making it an ideal spot to visit during your stay.
+Saint-Germain-des-Prés (Sainte-Chapelle): This historic church is one of the most popular attractions in Paris, featuring stunning stained glass windows, ornate
+
+--- Prompt: Here is my top 10 list of landmarks to see in Paris: – run 3 ---
+
+Paris, the City of Light, has an impressive and diverse landscape that spans over 253 km (156 mi) along its famous Île de la Cité avenue. Here's a comprehensive list with some of the most iconic landmarks you can visit:
+
+Eiffel Tower: The world's tallest man-made structure, it stands at an impressive 328 meters tall and offers stunning views of the city.
+Notre-Dame Cathedral: The former cathedral of the city's royal family, built in the 12th century by Charles delemagne and later restored in the 19th century.
+Louvre Museum: Home to thousands of works of art, including the Mona Lisa, this museum boasts an extensive collection of Egyptology, art history, and archaeology.
+Arc de Triomphe: A monumental arch honoring the soldiers who fought for France during World War I; it leads up to the Louvre.
+Seine River: A picturesque waterway that runs through the heart of Paris, offering breathtaking views of the city from various vantage points.
+Champs-Élysées: A vibrant avenue lined with high-end restaurants, cafes, and boutiques
+
+### PROMPT AN ASSISTANT
+
+--- Base model, Completion mode: Why is the sky blue? ---
+Why is the sky blue? The answer to that question may be a bit complicated. To understand it, you need to know about light and why the sky appears blue. You can read more at ScienceBlogs here. There are two types of rays in sunlight: Blue and Red. If you look at the sun with an eye close up, you will notice that most of its energy (energy that comes from the Sun) travels as red rays through the atmosphere, because that’s where we see the largest amount of these molecules and atoms. These are also known as the “Blue” rays. But when the Sun shines down on the Earth, it reflects some of those red rays back into space and gets mostly absorbed by water vapor, making the sky appear blue. The amount of this reflected light depends upon how much heat has been added to the surface of the Earth. On very hot days, there might be enough heat coming off the Sun so that all the water vapors have boiled away and the sky looks blue. On cold nights, however, less heat has been added to the ground, and the sky appears gray or black. When it rains or snows, the clouds get bigger and darker, and their particles scatter the blue rays out into space until they disappear
+
+
+--- Example conversation (written by an LLM) ---
+Human: What is the capital of Italy?
+Assistant: The capital of Italy is Rome.
+
+Human: How many days are there in a week?
+Assistant: There are seven days in a week.
+
+Human: What do bees make?
+Assistant: Bees make honey.
+
+Human: Why is the sky blue?
+Assistant:
+
+--- Base model, Completion mode: example conversation pasted in ---
+Human: What is the capital of Italy? Assistant: The capital of Italy is Rome.
+
+Human: How many days are there in a week? Assistant: There are seven days in a week.
+
+Human: What do bees make? Assistant: Bees make honey.
+
+Human: Why is the sky blue? Assistant: Because it has got a lot of water on it.
+
+What’s an adjective? Assistant: An adjective makes things more specific, so that we can say, “This book is black” or “This girl is beautiful.”
+
+13. How many people live in a country? Assistant: About 270 million people live in a country.
+
+When someone speaks about the number of people living in a country, they usually use this phrase to describe how much population (people) there are in that country. This expression often uses two words – “population”, which means the total number of people in a place and “country”. They also sometimes include other adjectives like ‘large’, ‘rich’ etc. When speaking about countries, you may have heard them used as a question – “Are there more people in the country than here?” In this case, “there are” refers to the number of people who live in the country; while “here” refers to what’s inside the country.
+
+14. What does it mean when someone says that a person has “no money”? Assistant: A person doesn't have any money because he/she lacks resources such as land, food, housing, education
+
+--- Comparison: what changed? ---
+
+Without the example, the base model continued the question as if it were writing an article (it even refers to "ScienceBlogs"), with a long and mostly wrong explanation. With the example conversation, it copied the Human/Assistant pattern and gave a short assistant-style answer, so a base model can be prompted to act like an assistant. But the answer was still wrong ("a lot of water on it"), and it did not stop: it kept inventing new Human/Assistant turns, because it was never trained to end its turn.
+
+### KNOWLEDGE CUTOFF
+
+--- The 2020 Nobel Prize in Economic Sciences was awarded to ---
+Model output:
+The 2020 Nobel Prize in Economic Sciences was awarded to three researchers who, together with their collaborators at the University of Cambridge and the University of Edinburgh, have developed a computer model that predicts how likely it is for an economic system to collapse. The model suggests that global warming could lead to a tipping point where many countries will be forced into war or civil unrest.
+
+Global Warming Impacts on Economy
+
+There are four basic components of an economy: production, consumption, investment and trade (see Figure 1). The first two represent the main sources of revenue and expenditures for any society; the third component represents the sector’s ability to produce goods and services. If the economy becomes too dependent on one sector alone—the “good” segment—it can no longer function as a whole. In this case, the economy must become more flexible and interdependent so that its members are able to move between sectors if they need additional resources.
+
+Figure 1. The four components of an economy Source: Climate Change and Human Systems, by Rory Tarrant, Richard A. Kammen, John E. Riddell, and David Sacks.
+
+When an economy begins to decline due to climate change, it does not necessarily mean there will be a general decline in demand and supply within the country. Instead
+Correct answer (with source):
+2020: Paul R. Milgrom and Robert B. Wilson, "for improvements to auction theory and inventions of new auction formats". Source: https://www.nobelprize.org/prizes/economic-sciences/2020/summary/
+
+--- The 2026 Nobel Prize in Economic Sciences was awarded to ---
+Model output:
+The 2026 Nobel Prize in Economic Sciences was awarded to two Japanese economists, Yoshio Nishiyama and Akira Kuroda. The prize will be announced on Wednesday, March 18, at the annual meeting of the American Association for the Advancement of Science in Boston.
+
+Nishiyama is a professor at the National Institute of Advanced Industrial Science and Technology (AIST) in Tokyo, Japan. He co-authored "Fiscal policies and economic growth" with economist Kato Yasuo. Kuroda is a professor at the University of Wisconsin-Madison and the Center for Advanced Studies at the University of Washington. They are among the world's leading experts on monetary policy and fiscal policy.
+
+Both economists agree that governments should spend more money to boost growth by increasing government spending on infrastructure, education and social services, and by cutting taxes on businesses and households. But they disagree about how much additional money policymakers need to do this.
+
+Economists agree that higher levels of aggregate demand would increase overall economic activity when it comes to real GDP. But they differ over whether there must be an amount of additional spending needed to achieve those gains.
+
+In other words, the economists have different views about what level of spending is necessary to raise gross domestic product (GDP).
+
+For example,
+Correct answer (with source):
+2026: Robert E. Hall and Michael Woodford, announced 12 October 2026. Source: https://www.nobelprize.org/prizes/economic-sciences/2026/
+
+### WHAT I NOTICED
+
+Base model vs. assistant: The base model continues text like a document (2+2 became a blog post about maths puzzles, the Paris prompt became a list). The instruct model answers the question in an assistant style. Post-training changes the behaviour and format, not the facts: both models made confident factual errors (e.g. the Eiffel Tower as the world's tallest structure, a wrong formula for 2+2).
+
+Prompting a base model: With a Human/Assistant example conversation, the base model copied the pattern and answered like an assistant, but it did not stop. It kept inventing new questions and answers because it was never trained to end its turn.
+
+Knowledge cutoff: For 2020 the model invented "three researchers" from Cambridge and Edinburgh (correct: Milgrom and Wilson). For 2026 it invented two Japanese economists and even contradicted itself ("was awarded" but "will be announced on March 18"). The model cannot know events after its training data, and instead of saying "I don't know" it produces a plausible-looking answer. For business use (e.g. market analysis), current facts must be given to the model or retrieved, not taken from its memory.
